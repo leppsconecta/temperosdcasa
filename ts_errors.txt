@@ -1,0 +1,21 @@
+pages/Cardapio.tsx(2724,9): error TS2322: Type '{ isOpen: any; type: any; title: any; maxWidth: string; content: any; onConfirm: () => Promise<void>; confirmText: string; onClose: () => any; autoClose: boolean; }' is not assignable to type 'ModalProps'.
+  Property 'autoClose' does not exist on type 'ModalProps'.
+pages/FichaTecnica.tsx(78,53): error TS2339: Property 'getInsumos' does not exist on type 'typeof import("C:/Users/lepps/Desktop/Projetos - DEV/Produtos Naturais/services/fichaTecnicaService")'.
+pages/FichaTecnica.tsx(87,56): error TS2339: Property 'getCategorias' does not exist on type 'typeof import("C:/Users/lepps/Desktop/Projetos - DEV/Produtos Naturais/services/fichaTecnicaService")'.
+pages/FichaTecnica.tsx(91,52): error TS2339: Property 'getAllPratosWithIngredientes' does not exist on type 'typeof import("C:/Users/lepps/Desktop/Projetos - DEV/Produtos Naturais/services/fichaTecnicaService")'.
+pages/FichaTecnica.tsx(160,35): error TS2339: Property 'updatePrato' does not exist on type 'typeof import("C:/Users/lepps/Desktop/Projetos - DEV/Produtos Naturais/services/fichaTecnicaService")'.
+pages/FichaTecnica.tsx(163,35): error TS2339: Property 'createPrato' does not exist on type 'typeof import("C:/Users/lepps/Desktop/Projetos - DEV/Produtos Naturais/services/fichaTecnicaService")'.
+pages/FichaTecnica.tsx(178,33): error TS2339: Property 'deletePratoWithImage' does not exist on type 'typeof import("C:/Users/lepps/Desktop/Projetos - DEV/Produtos Naturais/services/fichaTecnicaService")'.
+pages/FichaTecnica.tsx(188,35): error TS2339: Property 'updateInsumo' does not exist on type 'typeof import("C:/Users/lepps/Desktop/Projetos - DEV/Produtos Naturais/services/fichaTecnicaService")'.
+pages/FichaTecnica.tsx(190,35): error TS2339: Property 'createInsumo' does not exist on type 'typeof import("C:/Users/lepps/Desktop/Projetos - DEV/Produtos Naturais/services/fichaTecnicaService")'.
+pages/FichaTecnica.tsx(201,33): error TS2339: Property 'deleteInsumo' does not exist on type 'typeof import("C:/Users/lepps/Desktop/Projetos - DEV/Produtos Naturais/services/fichaTecnicaService")'.
+pages/FichaTecnica.tsx(210,33): error TS2339: Property 'createCategoria' does not exist on type 'typeof import("C:/Users/lepps/Desktop/Projetos - DEV/Produtos Naturais/services/fichaTecnicaService")'.
+pages/FichaTecnica.tsx(220,33): error TS2339: Property 'updateCategoria' does not exist on type 'typeof import("C:/Users/lepps/Desktop/Projetos - DEV/Produtos Naturais/services/fichaTecnicaService")'.
+pages/FichaTecnica.tsx(229,33): error TS2339: Property 'deleteCategoria' does not exist on type 'typeof import("C:/Users/lepps/Desktop/Projetos - DEV/Produtos Naturais/services/fichaTecnicaService")'.
+pages/FichaTecnica.tsx(371,13): error TS2741: Property 'id' is missing in type '{ materiaPrimaId: any; quantidade: number; }' but required in type 'IngredientePrato'.
+pages/FichaTecnica.tsx(422,41): error TS2339: Property 'deletePratoImage' does not exist on type 'typeof import("C:/Users/lepps/Desktop/Projetos - DEV/Produtos Naturais/services/fichaTecnicaService")'.
+pages/FichaTecnica.tsx(429,47): error TS2339: Property 'uploadPratoImage' does not exist on type 'typeof import("C:/Users/lepps/Desktop/Projetos - DEV/Produtos Naturais/services/fichaTecnicaService")'.
+pages/FichaTecnica.tsx(1130,24): error TS2558: Expected 0 type arguments, but got 1.
+pages/FichaTecnica.tsx(1175,24): error TS2558: Expected 0 type arguments, but got 1.
+pages/Funcionarios.tsx(683,5): error TS2353: Object literal may only specify known properties, and 'tipoContrato' does not exist in type 'Funcionario'.
+pages/Funcionarios.tsx(916,18): error TS2315: Type 'Column' is not generic.

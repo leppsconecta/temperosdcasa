@@ -1,0 +1,411 @@
+﻿REQ: http://localhost:3000/
+RES: http://localhost:3000/ 200
+REQ: http://localhost:3000/@vite/client
+REQ: http://localhost:3000/main.tsx?t=1772752820441
+REQ: https://cdn.userway.org/widget.js
+REQ: http://localhost:3000/@react-refresh
+RES: http://localhost:3000/@vite/client 200
+REQ: http://localhost:3000/node_modules/vite/dist/client/env.mjs
+RES: http://localhost:3000/main.tsx?t=1772752820441 200
+REQ: http://localhost:3000/node_modules/.vite/deps/react_jsx-dev-runtime.js?v=19d7b4af
+REQ: http://localhost:3000/node_modules/.vite/deps/react.js?v=19d7b4af
+REQ: http://localhost:3000/node_modules/.vite/deps/react-dom_client.js?v=19d7b4af
+REQ: http://localhost:3000/App.tsx
+REQ: http://localhost:3000/index.css?t=1772752820572
+RES: http://localhost:3000/@react-refresh 200
+RES: http://localhost:3000/node_modules/vite/dist/client/env.mjs 200
+RES: http://localhost:3000/node_modules/.vite/deps/react_jsx-dev-runtime.js?v=19d7b4af 200
+REQ: http://localhost:3000/node_modules/.vite/deps/chunk-S73QDKPN.js?v=19d7b4af
+REQ: http://localhost:3000/node_modules/.vite/deps/chunk-G3PMV62Z.js?v=19d7b4af
+RES: http://localhost:3000/node_modules/.vite/deps/react.js?v=19d7b4af 200
+RES: http://localhost:3000/App.tsx 200
+REQ: http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=19d7b4af
+REQ: http://localhost:3000/pages/Home.tsx
+REQ: http://localhost:3000/pages/ProductsPage.tsx
+REQ: http://localhost:3000/pages/AboutPage.tsx
+REQ: http://localhost:3000/pages/AdminLogin.tsx
+REQ: http://localhost:3000/pages/AdminDashboard.tsx
+REQ: http://localhost:3000/context/CartContext.tsx
+REQ: http://localhost:3000/context/AuthContext.tsx
+REQ: http://localhost:3000/components/CartSidebar.tsx
+REQ: http://localhost:3000/components/ScrollToTop.tsx
+RES: http://localhost:3000/node_modules/.vite/deps/react-dom_client.js?v=19d7b4af 200
+RES: http://localhost:3000/node_modules/.vite/deps/chunk-S73QDKPN.js?v=19d7b4af 200
+REQ: http://localhost:3000/node_modules/.vite/deps/chunk-Z5AKTONR.js?v=19d7b4af
+RES: http://localhost:3000/node_modules/.vite/deps/chunk-G3PMV62Z.js?v=19d7b4af 200
+RES: http://localhost:3000/index.css?t=1772752820572 200
+RES: http://localhost:3000/pages/Home.tsx 200
+REQ: http://localhost:3000/components/Navbar.tsx
+REQ: http://localhost:3000/components/Hero.tsx
+REQ: http://localhost:3000/components/Products.tsx
+REQ: http://localhost:3000/components/Wholesale.tsx
+REQ: http://localhost:3000/components/Contact.tsx
+REQ: http://localhost:3000/components/Footer.tsx
+REQ: http://localhost:3000/components/FloatingWhatsApp.tsx
+RES: http://localhost:3000/pages/ProductsPage.tsx 200
+REQ: http://localhost:3000/node_modules/.vite/deps/motion_react.js?v=19d7b4af
+REQ: http://localhost:3000/node_modules/.vite/deps/lucide-react.js?v=19d7b4af
+RES: http://localhost:3000/pages/AboutPage.tsx 200
+RES: http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=19d7b4af 200
+RES: http://localhost:3000/pages/AdminLogin.tsx 200
+RES: http://localhost:3000/pages/AdminDashboard.tsx 200
+RES: http://localhost:3000/context/CartContext.tsx 200
+RES: http://localhost:3000/context/AuthContext.tsx 200
+RES: http://localhost:3000/components/ScrollToTop.tsx 200
+RES: http://localhost:3000/node_modules/.vite/deps/chunk-Z5AKTONR.js?v=19d7b4af 200
+RES: http://localhost:3000/components/CartSidebar.tsx 200
+RES: http://localhost:3000/components/Navbar.tsx 200
+RES: http://localhost:3000/components/Hero.tsx 200
+RES: http://localhost:3000/components/Products.tsx 200
+RES: http://localhost:3000/components/Wholesale.tsx 200
+RES: http://localhost:3000/components/Contact.tsx 200
+RES: http://localhost:3000/components/Footer.tsx 200
+RES: http://localhost:3000/components/FloatingWhatsApp.tsx 200
+RES: http://localhost:3000/node_modules/.vite/deps/motion_react.js?v=19d7b4af 200
+REQ: http://localhost:3000/node_modules/.vite/deps/chunk-W6WX3VQI.js?v=19d7b4af
+RES: https://cdn.userway.org/widget.js 200
+BROWSER_LOG: [vite] connecting...
+RES: http://localhost:3000/node_modules/.vite/deps/lucide-react.js?v=19d7b4af 200
+RES: http://localhost:3000/node_modules/.vite/deps/chunk-W6WX3VQI.js?v=19d7b4af 200
+BROWSER_LOG: %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+REQ: https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap
+REQ: https://cdn.userway.org/widgetapp/2026-02-26-10-23-12/widget_app_base_1772101392457.js
+REQ: https://www.transparenttextures.com/patterns/cream-paper.png
+BROWSER_LOG: Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+1. You might have mismatching versions of React and the renderer (such as React DOM)
+2. You might be breaking the Rules of Hooks
+3. You might have more than one copy of React in the same app
+See https://react.dev/link/invalid-hook-call for tips about how to debug and fix this problem.
+BROWSER_LOG: Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+1. You might have mismatching versions of React and the renderer (such as React DOM)
+2. You might be breaking the Rules of Hooks
+3. You might have more than one copy of React in the same app
+See https://react.dev/link/invalid-hook-call for tips about how to debug and fix this problem.
+BROWSER_LOG: %s
+
+%s
+ An error occurred in the <AnimatePresence> component. Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries.
+REQ: https://ui-avatars.com/api/?name=MDA&background=99CC33&color=1E0028&rounded=true&bold=true
+RES: https://www.transparenttextures.com/patterns/cream-paper.png 200
+RES: https://ui-avatars.com/api/?name=MDA&background=99CC33&color=1E0028&rounded=true&bold=true 200
+RES: https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap 200
+BROWSER_LOG: [vite] connected.
+RES: https://cdn.userway.org/widgetapp/2026-02-26-10-23-12/widget_app_base_1772101392457.js 200
+REQ: https://api.userway.org/api/v1/tunings/your-account-id
+HTML_BODY: <!DOCTYPE html><html lang="pt-BR" data-uw-w-loader=""><head>
+  <script type="module">import { injectIntoGlobalHook } from "/@react-refresh";
+injectIntoGlobalHook(window);
+window.$RefreshReg$ = () => {};
+window.$RefreshSig$ = () => (type) => type;</script>
+
+  <script type="module" src="/@vite/client"></script>
+
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/svg+xml" href="/leaf.svg">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MDA - Produtos Naturais
+REQ: http://localhost:3000/
+RES: http://localhost:3000/ 200
+BROWSER_LOG: Tunings Error:  TypeError: Failed to fetch
+    at https://cdn.userway.org/widgetapp/2026-02-26-10-23-12/widget_app_base_1772101392457.js:3:14707
+    at i (https://cdn.userway.org/widgetapp/2026-02-26-10-23-12/widget_app_base_1772101392457.js:1:5936)
+    at Object.next (https://cdn.userway.org/widgetapp/2026-02-26-10-23-12/widget_app_base_1772101392457.js:1:5219)
+    at https://cdn.userway.org/widgetapp/2026-02-26-10-23-12/widget_app_base_1772101392457.js:1:5118
+    at new Promise (<anonymous>)
+    at __awaiter (https://cdn.userway.org/widgetapp/2026-02-26-10-23-12/widget_app_base_1772101392457.js:1:4915)
+    at o (https://cdn.userway.org/widgetapp/2026-02-26-10-23-12/widget_app_base_1772101392457.js:3:14466)
+    at https://cdn.userway.org/widgetapp/2026-02-26-10-23-12/widget_app_base_1772101392457.js:3:15298
+    at i (https://cdn.userway.org/widgetapp/2026-02-26-10-23-12/widget_app_base_1772101392457.js:1:5936)
+    at Object.next (https://cdn.userway.org/widgetapp/2026-02-26-10-23-12/widget_app_base_1772101392457.js:1:5219)
+BROWSER_LOG: Initialization error: undefined - Cannot read properties of null (reading 'invalidAccountId')
+REQ: http://localhost:3000/@vite/client
+REQ: http://localhost:3000/main.tsx?t=1772752821602
+REQ: https://cdn.userway.org/widget.js
+REQ: http://localhost:3000/@react-refresh
+RES: http://localhost:3000/@vite/client 304
+REQ: http://localhost:3000/node_modules/vite/dist/client/env.mjs
+RES: http://localhost:3000/main.tsx?t=1772752821602 200
+REQ: http://localhost:3000/node_modules/.vite/deps/react_jsx-dev-runtime.js?v=19d7b4af
+RES: http://localhost:3000/node_modules/.vite/deps/react_jsx-dev-runtime.js?v=19d7b4af 200
+REQ: http://localhost:3000/node_modules/.vite/deps/react.js?v=19d7b4af
+RES: http://localhost:3000/node_modules/.vite/deps/react.js?v=19d7b4af 200
+REQ: http://localhost:3000/node_modules/.vite/deps/react-dom_client.js?v=19d7b4af
+RES: http://localhost:3000/node_modules/.vite/deps/react-dom_client.js?v=19d7b4af 200
+REQ: http://localhost:3000/App.tsx
+REQ: http://localhost:3000/index.css?t=1772752821602
+REQ: http://localhost:3000/node_modules/.vite/deps/chunk-S73QDKPN.js?v=19d7b4af
+RES: http://localhost:3000/node_modules/.vite/deps/chunk-S73QDKPN.js?v=19d7b4af 200
+REQ: http://localhost:3000/node_modules/.vite/deps/chunk-G3PMV62Z.js?v=19d7b4af
+RES: http://localhost:3000/node_modules/.vite/deps/chunk-G3PMV62Z.js?v=19d7b4af 200
+REQ: http://localhost:3000/node_modules/.vite/deps/chunk-Z5AKTONR.js?v=19d7b4af
+RES: http://localhost:3000/node_modules/.vite/deps/chunk-Z5AKTONR.js?v=19d7b4af 200
+RES: http://localhost:3000/@react-refresh 304
+RES: http://localhost:3000/node_modules/vite/dist/client/env.mjs 304
+RES: http://localhost:3000/App.tsx 304
+REQ: http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=19d7b4af
+RES: http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=19d7b4af 200
+REQ: http://localhost:3000/pages/Home.tsx
+REQ: http://localhost:3000/pages/ProductsPage.tsx
+REQ: http://localhost:3000/pages/AboutPage.tsx
+REQ: http://localhost:3000/pages/AdminLogin.tsx
+REQ: http://localhost:3000/pages/AdminDashboard.tsx
+REQ: http://localhost:3000/context/CartContext.tsx
+REQ: http://localhost:3000/context/AuthContext.tsx
+REQ: http://localhost:3000/components/CartSidebar.tsx
+REQ: http://localhost:3000/components/ScrollToTop.tsx
+RES: http://localhost:3000/pages/Home.tsx 304
+REQ: http://localhost:3000/components/Navbar.tsx
+REQ: http://localhost:3000/components/Hero.tsx
+REQ: http://localhost:3000/components/Products.tsx
+REQ: http://localhost:3000/components/Wholesale.tsx
+REQ: http://localhost:3000/components/Contact.tsx
+REQ: http://localhost:3000/components/Footer.tsx
+REQ: http://localhost:3000/components/FloatingWhatsApp.tsx
+RES: http://localhost:3000/pages/ProductsPage.tsx 304
+RES: http://localhost:3000/pages/AboutPage.tsx 304
+RES: http://localhost:3000/pages/AdminLogin.tsx 304
+RES: http://localhost:3000/pages/AdminDashboard.tsx 304
+REQ: http://localhost:3000/node_modules/.vite/deps/motion_react.js?v=19d7b4af
+RES: http://localhost:3000/node_modules/.vite/deps/motion_react.js?v=19d7b4af 200
+REQ: http://localhost:3000/node_modules/.vite/deps/lucide-react.js?v=19d7b4af
+RES: http://localhost:3000/node_modules/.vite/deps/lucide-react.js?v=19d7b4af 200
+REQ: http://localhost:3000/node_modules/.vite/deps/chunk-W6WX3VQI.js?v=19d7b4af
+RES: http://localhost:3000/node_modules/.vite/deps/chunk-W6WX3VQI.js?v=19d7b4af 200
+RES: http://localhost:3000/context/CartContext.tsx 304
+RES: http://localhost:3000/context/AuthContext.tsx 304
+RES: http://localhost:3000/components/CartSidebar.tsx 304
+RES: http://localhost:3000/components/ScrollToTop.tsx 304
+RES: http://localhost:3000/components/Navbar.tsx 304
+RES: http://localhost:3000/components/Hero.tsx 304
+RES: http://localhost:3000/components/Products.tsx 304
+RES: http://localhost:3000/components/Wholesale.tsx 304
+RES: http://localhost:3000/components/Contact.tsx 304
+RES: http://localhost:3000/components/Footer.tsx 304
+RES: https://cdn.userway.org/widget.js 304
+RES: http://localhost:3000/components/FloatingWhatsApp.tsx 304
+BROWSER_LOG: [vite] connecting...
+RES: http://localhost:3000/index.css?t=1772752821602 200
+BROWSER_LOG: %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+REQ: https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap
+RES: https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap 200
+REQ: https://cdn.userway.org/widgetapp/2026-02-26-10-23-12/widget_app_base_1772101392457.js
+RES: https://cdn.userway.org/widgetapp/2026-02-26-10-23-12/widget_app_base_1772101392457.js 200
+REQ: https://www.transparenttextures.com/patterns/cream-paper.png
+RES: https://www.transparenttextures.com/patterns/cream-paper.png 200
+REQ: https://ui-avatars.com/api/?name=MDA&background=99CC33&color=1E0028&rounded=true&bold=true
+RES: https://ui-avatars.com/api/?name=MDA&background=99CC33&color=1E0028&rounded=true&bold=true 200
+BROWSER_LOG: Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+1. You might have mismatching versions of React and the renderer (such as React DOM)
+2. You might be breaking the Rules of Hooks
+3. You might have more than one copy of React in the same app
+See https://react.dev/link/invalid-hook-call for tips about how to debug and fix this problem.
+BROWSER_LOG: Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+1. You might have mismatching versions of React and the renderer (such as React DOM)
+2. You might be breaking the Rules of Hooks
+3. You might have more than one copy of React in the same app
+See https://react.dev/link/invalid-hook-call for tips about how to debug and fix this problem.
+BROWSER_LOG: %s
+
+%s
+ An error occurred in the <AnimatePresence> component. Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries.
+REQ: https://api.userway.org/api/v1/tunings/your-account-id
+BROWSER_LOG: [vite] connected.
+RES: https://api.userway.org/api/v1/tunings/your-account-id 200
+REQ: https://cdn.userway.org/widgetapp/2026-02-26-10-23-12/locales/pt-BR.json
+BROWSER_LOG: PRO UserWay Accessibility widget detected, but script installed incorrectly. Check setup.
+RES: https://cdn.userway.org/widgetapp/2026-02-26-10-23-12/locales/pt-BR.json 200
+REQ: http://localhost:3000/
+RES: http://localhost:3000/ 200
+REQ: http://localhost:3000/@vite/client
+REQ: http://localhost:3000/main.tsx?t=1772752822375
+REQ: https://cdn.userway.org/widget.js
+REQ: http://localhost:3000/@react-refresh
+RES: http://localhost:3000/@vite/client 304
+REQ: http://localhost:3000/node_modules/vite/dist/client/env.mjs
+RES: http://localhost:3000/@react-refresh 304
+RES: http://localhost:3000/main.tsx?t=1772752822375 200
+REQ: http://localhost:3000/node_modules/.vite/deps/react_jsx-dev-runtime.js?v=19d7b4af
+RES: http://localhost:3000/node_modules/.vite/deps/react_jsx-dev-runtime.js?v=19d7b4af 200
+REQ: http://localhost:3000/node_modules/.vite/deps/react.js?v=19d7b4af
+RES: http://localhost:3000/node_modules/.vite/deps/react.js?v=19d7b4af 200
+REQ: http://localhost:3000/node_modules/.vite/deps/react-dom_client.js?v=19d7b4af
+RES: http://localhost:3000/node_modules/.vite/deps/react-dom_client.js?v=19d7b4af 200
+REQ: http://localhost:3000/App.tsx
+REQ: http://localhost:3000/index.css?t=1772752822447
+REQ: http://localhost:3000/node_modules/.vite/deps/chunk-S73QDKPN.js?v=19d7b4af
+RES: http://localhost:3000/node_modules/.vite/deps/chunk-S73QDKPN.js?v=19d7b4af 200
+REQ: http://localhost:3000/node_modules/.vite/deps/chunk-G3PMV62Z.js?v=19d7b4af
+RES: http://localhost:3000/node_modules/.vite/deps/chunk-G3PMV62Z.js?v=19d7b4af 200
+REQ: http://localhost:3000/node_modules/.vite/deps/chunk-Z5AKTONR.js?v=19d7b4af
+RES: http://localhost:3000/node_modules/.vite/deps/chunk-Z5AKTONR.js?v=19d7b4af 200
+RES: http://localhost:3000/node_modules/vite/dist/client/env.mjs 304
+RES: http://localhost:3000/App.tsx 304
+REQ: http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=19d7b4af
+RES: http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=19d7b4af 200
+REQ: http://localhost:3000/pages/Home.tsx
+REQ: http://localhost:3000/pages/ProductsPage.tsx
+REQ: http://localhost:3000/pages/AboutPage.tsx
+REQ: http://localhost:3000/pages/AdminLogin.tsx
+REQ: http://localhost:3000/pages/AdminDashboard.tsx
+REQ: http://localhost:3000/context/CartContext.tsx
+REQ: http://localhost:3000/context/AuthContext.tsx
+REQ: http://localhost:3000/components/CartSidebar.tsx
+REQ: http://localhost:3000/components/ScrollToTop.tsx
+RES: http://localhost:3000/pages/Home.tsx 304
+RES: http://localhost:3000/pages/ProductsPage.tsx 304
+REQ: http://localhost:3000/components/Navbar.tsx
+REQ: http://localhost:3000/components/Hero.tsx
+REQ: http://localhost:3000/components/Products.tsx
+REQ: http://localhost:3000/components/Wholesale.tsx
+REQ: http://localhost:3000/components/Contact.tsx
+REQ: http://localhost:3000/components/Footer.tsx
+REQ: http://localhost:3000/components/FloatingWhatsApp.tsx
+RES: http://localhost:3000/pages/AboutPage.tsx 304
+REQ: http://localhost:3000/node_modules/.vite/deps/motion_react.js?v=19d7b4af
+RES: http://localhost:3000/node_modules/.vite/deps/motion_react.js?v=19d7b4af 200
+REQ: http://localhost:3000/node_modules/.vite/deps/lucide-react.js?v=19d7b4af
+RES: http://localhost:3000/node_modules/.vite/deps/lucide-react.js?v=19d7b4af 200
+RES: http://localhost:3000/pages/AdminLogin.tsx 304
+RES: http://localhost:3000/pages/AdminDashboard.tsx 304
+REQ: http://localhost:3000/node_modules/.vite/deps/chunk-W6WX3VQI.js?v=19d7b4af
+RES: http://localhost:3000/node_modules/.vite/deps/chunk-W6WX3VQI.js?v=19d7b4af 200
+RES: http://localhost:3000/context/CartContext.tsx 304
+RES: http://localhost:3000/context/AuthContext.tsx 304
+RES: http://localhost:3000/components/CartSidebar.tsx 304
+RES: http://localhost:3000/components/ScrollToTop.tsx 304
+RES: http://localhost:3000/components/Navbar.tsx 304
+RES: http://localhost:3000/index.css?t=1772752822447 200
+RES: http://localhost:3000/components/Hero.tsx 304
+RES: http://localhost:3000/components/Products.tsx 304
+RES: https://cdn.userway.org/widget.js 304
+RES: http://localhost:3000/components/Wholesale.tsx 304
+RES: http://localhost:3000/components/Contact.tsx 304
+RES: http://localhost:3000/components/Footer.tsx 304
+BROWSER_LOG: [vite] connecting...
+RES: http://localhost:3000/components/FloatingWhatsApp.tsx 304
+BROWSER_LOG: %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+REQ: https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap
+RES: https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap 200
+REQ: https://cdn.userway.org/widgetapp/2026-02-26-10-23-12/widget_app_base_1772101392457.js
+RES: https://cdn.userway.org/widgetapp/2026-02-26-10-23-12/widget_app_base_1772101392457.js 200
+REQ: https://www.transparenttextures.com/patterns/cream-paper.png
+RES: https://www.transparenttextures.com/patterns/cream-paper.png 200
+REQ: https://ui-avatars.com/api/?name=MDA&background=99CC33&color=1E0028&rounded=true&bold=true
+RES: https://ui-avatars.com/api/?name=MDA&background=99CC33&color=1E0028&rounded=true&bold=true 200
+BROWSER_LOG: Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+1. You might have mismatching versions of React and the renderer (such as React DOM)
+2. You might be breaking the Rules of Hooks
+3. You might have more than one copy of React in the same app
+See https://react.dev/link/invalid-hook-call for tips about how to debug and fix this problem.
+BROWSER_LOG: Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+1. You might have mismatching versions of React and the renderer (such as React DOM)
+2. You might be breaking the Rules of Hooks
+3. You might have more than one copy of React in the same app
+See https://react.dev/link/invalid-hook-call for tips about how to debug and fix this problem.
+BROWSER_LOG: %s
+
+%s
+ An error occurred in the <AnimatePresence> component. Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries.
+REQ: https://api.userway.org/api/v1/tunings/your-account-id
+RES: https://api.userway.org/api/v1/tunings/your-account-id 200
+BROWSER_LOG: PRO UserWay Accessibility widget detected, but script installed incorrectly. Check setup.
+BROWSER_LOG: [vite] connected.
+REQ: http://localhost:3000/
+RES: http://localhost:3000/ 200
+REQ: http://localhost:3000/@vite/client
+REQ: http://localhost:3000/main.tsx?t=1772752823176
+REQ: https://cdn.userway.org/widget.js
+REQ: http://localhost:3000/@react-refresh
+RES: http://localhost:3000/@vite/client 304
+REQ: http://localhost:3000/node_modules/vite/dist/client/env.mjs
+RES: http://localhost:3000/@react-refresh 304
+RES: http://localhost:3000/main.tsx?t=1772752823176 200
+REQ: http://localhost:3000/node_modules/.vite/deps/react_jsx-dev-runtime.js?v=19d7b4af
+RES: http://localhost:3000/node_modules/.vite/deps/react_jsx-dev-runtime.js?v=19d7b4af 200
+REQ: http://localhost:3000/node_modules/.vite/deps/react.js?v=19d7b4af
+RES: http://localhost:3000/node_modules/.vite/deps/react.js?v=19d7b4af 200
+REQ: http://localhost:3000/node_modules/.vite/deps/react-dom_client.js?v=19d7b4af
+RES: http://localhost:3000/node_modules/.vite/deps/react-dom_client.js?v=19d7b4af 200
+REQ: http://localhost:3000/App.tsx
+REQ: http://localhost:3000/index.css?t=1772752823176
+REQ: http://localhost:3000/node_modules/.vite/deps/chunk-S73QDKPN.js?v=19d7b4af
+RES: http://localhost:3000/node_modules/.vite/deps/chunk-S73QDKPN.js?v=19d7b4af 200
+REQ: http://localhost:3000/node_modules/.vite/deps/chunk-G3PMV62Z.js?v=19d7b4af
+RES: http://localhost:3000/node_modules/.vite/deps/chunk-G3PMV62Z.js?v=19d7b4af 200
+REQ: http://localhost:3000/node_modules/.vite/deps/chunk-Z5AKTONR.js?v=19d7b4af
+RES: http://localhost:3000/node_modules/.vite/deps/chunk-Z5AKTONR.js?v=19d7b4af 200
+RES: http://localhost:3000/node_modules/vite/dist/client/env.mjs 304
+RES: http://localhost:3000/App.tsx 304
+REQ: http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=19d7b4af
+RES: http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=19d7b4af 200
+REQ: http://localhost:3000/pages/Home.tsx
+REQ: http://localhost:3000/pages/ProductsPage.tsx
+REQ: http://localhost:3000/pages/AboutPage.tsx
+REQ: http://localhost:3000/pages/AdminLogin.tsx
+REQ: http://localhost:3000/pages/AdminDashboard.tsx
+REQ: http://localhost:3000/context/CartContext.tsx
+REQ: http://localhost:3000/context/AuthContext.tsx
+REQ: http://localhost:3000/components/CartSidebar.tsx
+REQ: http://localhost:3000/components/ScrollToTop.tsx
+RES: http://localhost:3000/index.css?t=1772752823176 200
+RES: http://localhost:3000/pages/Home.tsx 304
+REQ: http://localhost:3000/components/Navbar.tsx
+REQ: http://localhost:3000/components/Hero.tsx
+REQ: http://localhost:3000/components/Products.tsx
+REQ: http://localhost:3000/components/Wholesale.tsx
+REQ: http://localhost:3000/components/Contact.tsx
+REQ: http://localhost:3000/components/Footer.tsx
+REQ: http://localhost:3000/components/FloatingWhatsApp.tsx
+RES: http://localhost:3000/pages/ProductsPage.tsx 304
+RES: http://localhost:3000/pages/AboutPage.tsx 304
+RES: http://localhost:3000/pages/AdminLogin.tsx 304
+RES: http://localhost:3000/pages/AdminDashboard.tsx 304
+REQ: http://localhost:3000/node_modules/.vite/deps/motion_react.js?v=19d7b4af
+RES: http://localhost:3000/node_modules/.vite/deps/motion_react.js?v=19d7b4af 200
+REQ: http://localhost:3000/node_modules/.vite/deps/lucide-react.js?v=19d7b4af
+RES: http://localhost:3000/node_modules/.vite/deps/lucide-react.js?v=19d7b4af 200
+REQ: http://localhost:3000/node_modules/.vite/deps/chunk-W6WX3VQI.js?v=19d7b4af
+RES: http://localhost:3000/node_modules/.vite/deps/chunk-W6WX3VQI.js?v=19d7b4af 200
+RES: http://localhost:3000/context/CartContext.tsx 304
+RES: http://localhost:3000/context/AuthContext.tsx 304
+RES: http://localhost:3000/components/CartSidebar.tsx 304
+RES: http://localhost:3000/components/ScrollToTop.tsx 304
+RES: http://localhost:3000/components/Navbar.tsx 304
+RES: http://localhost:3000/components/Hero.tsx 304
+RES: http://localhost:3000/components/Products.tsx 304
+RES: http://localhost:3000/components/Wholesale.tsx 304
+RES: http://localhost:3000/components/Contact.tsx 304
+RES: http://localhost:3000/components/Footer.tsx 304
+RES: http://localhost:3000/components/FloatingWhatsApp.tsx 304
+RES: https://cdn.userway.org/widget.js 304
+BROWSER_LOG: [vite] connecting...
+BROWSER_LOG: %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+REQ: https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap
+RES: https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap 200
+REQ: https://cdn.userway.org/widgetapp/2026-02-26-10-23-12/widget_app_base_1772101392457.js
+RES: https://cdn.userway.org/widgetapp/2026-02-26-10-23-12/widget_app_base_1772101392457.js 200
+REQ: https://www.transparenttextures.com/patterns/cream-paper.png
+RES: https://www.transparenttextures.com/patterns/cream-paper.png 200
+REQ: https://ui-avatars.com/api/?name=MDA&background=99CC33&color=1E0028&rounded=true&bold=true
+RES: https://ui-avatars.com/api/?name=MDA&background=99CC33&color=1E0028&rounded=true&bold=true 200
+BROWSER_LOG: Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+1. You might have mismatching versions of React and the renderer (such as React DOM)
+2. You might be breaking the Rules of Hooks
+3. You might have more than one copy of React in the same app
+See https://react.dev/link/invalid-hook-call for tips about how to debug and fix this problem.
+BROWSER_LOG: Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+1. You might have mismatching versions of React and the renderer (such as React DOM)
+2. You might be breaking the Rules of Hooks
+3. You might have more than one copy of React in the same app
+See https://react.dev/link/invalid-hook-call for tips about how to debug and fix this problem.
+BROWSER_LOG: %s
+
+%s
+ An error occurred in the <AnimatePresence> component. Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries.
+REQ: https://api.userway.org/api/v1/tunings/your-account-id
+RES: https://api.userway.org/api/v1/tunings/your-account-id 200
+BROWSER_LOG: PRO UserWay Accessibility widget detected, but script installed incorrectly. Check setup.

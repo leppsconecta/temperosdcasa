@@ -1,0 +1,143 @@
+﻿REQ: http://localhost:3000/
+RES: http://localhost:3000/ 200
+REQ: http://localhost:3000/@vite/client
+REQ: http://localhost:3000/main.tsx
+REQ: https://cdn.userway.org/widget.js
+REQ: http://localhost:3000/@react-refresh
+RES: http://localhost:3000/main.tsx 200
+REQ: http://localhost:3000/node_modules/.vite/deps/react_jsx-dev-runtime.js?v=ec536ee7
+REQ: http://localhost:3000/node_modules/.vite/deps/react.js?v=ec536ee7
+REQ: http://localhost:3000/node_modules/.vite/deps/react-dom_client.js?v=b484d933
+REQ: http://localhost:3000/App.tsx
+REQ: http://localhost:3000/index.css
+RES: http://localhost:3000/@vite/client 200
+REQ: http://localhost:3000/node_modules/vite/dist/client/env.mjs
+RES: http://localhost:3000/@react-refresh 200
+RES: http://localhost:3000/node_modules/.vite/deps/react_jsx-dev-runtime.js?v=ec536ee7 200
+REQ: http://localhost:3000/node_modules/.vite/deps/chunk-FPU2ABES.js?v=278171a2
+RES: http://localhost:3000/node_modules/.vite/deps/react.js?v=ec536ee7 200
+RES: http://localhost:3000/App.tsx 200
+REQ: http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=b5df72d5
+REQ: http://localhost:3000/pages/Home.tsx
+REQ: http://localhost:3000/pages/ProductsPage.tsx
+REQ: http://localhost:3000/pages/AboutPage.tsx
+REQ: http://localhost:3000/pages/AdminLogin.tsx
+REQ: http://localhost:3000/pages/AdminDashboard.tsx
+REQ: http://localhost:3000/context/CartContext.tsx
+REQ: http://localhost:3000/context/AuthContext.tsx
+REQ: http://localhost:3000/components/CartSidebar.tsx
+REQ: http://localhost:3000/components/ScrollToTop.tsx
+RES: http://localhost:3000/index.css 200
+RES: http://localhost:3000/node_modules/.vite/deps/react-dom_client.js?v=b484d933 200
+RES: http://localhost:3000/node_modules/vite/dist/client/env.mjs 200
+REQ: http://localhost:3000/node_modules/.vite/deps/chunk-4L6DWBZ2.js?v=278171a2
+RES: http://localhost:3000/node_modules/.vite/deps/chunk-FPU2ABES.js?v=278171a2 200
+RES: http://localhost:3000/pages/Home.tsx 200
+REQ: http://localhost:3000/components/Navbar.tsx
+REQ: http://localhost:3000/components/Hero.tsx
+REQ: http://localhost:3000/components/Products.tsx
+REQ: http://localhost:3000/components/Wholesale.tsx
+REQ: http://localhost:3000/components/Contact.tsx
+REQ: http://localhost:3000/components/Footer.tsx
+REQ: http://localhost:3000/components/FloatingWhatsApp.tsx
+RES: http://localhost:3000/pages/ProductsPage.tsx 200
+REQ: http://localhost:3000/node_modules/.vite/deps/motion_react.js?v=9dbf3707
+REQ: http://localhost:3000/node_modules/.vite/deps/lucide-react.js?v=7803bc5d
+RES: http://localhost:3000/pages/AboutPage.tsx 200
+RES: http://localhost:3000/pages/AdminLogin.tsx 200
+RES: http://localhost:3000/node_modules/.vite/deps/react-router-dom.js?v=b5df72d5 200
+RES: http://localhost:3000/pages/AdminDashboard.tsx 200
+RES: http://localhost:3000/context/CartContext.tsx 200
+RES: http://localhost:3000/context/AuthContext.tsx 200
+RES: http://localhost:3000/components/CartSidebar.tsx 200
+RES: http://localhost:3000/components/ScrollToTop.tsx 200
+RES: http://localhost:3000/node_modules/.vite/deps/chunk-4L6DWBZ2.js?v=278171a2 200
+RES: http://localhost:3000/components/Navbar.tsx 200
+RES: http://localhost:3000/components/Hero.tsx 200
+RES: http://localhost:3000/components/Products.tsx 200
+RES: http://localhost:3000/components/Wholesale.tsx 200
+RES: http://localhost:3000/components/Contact.tsx 200
+RES: http://localhost:3000/components/Footer.tsx 200
+RES: http://localhost:3000/components/FloatingWhatsApp.tsx 200
+RES: http://localhost:3000/node_modules/.vite/deps/motion_react.js?v=9dbf3707 200
+REQ: http://localhost:3000/node_modules/.vite/deps/chunk-CZOZVI57.js?v=278171a2
+RES: http://localhost:3000/node_modules/.vite/deps/chunk-CZOZVI57.js?v=278171a2 200
+RES: http://localhost:3000/node_modules/.vite/deps/lucide-react.js?v=7803bc5d 200
+RES: https://cdn.userway.org/widget.js 200
+BROWSER_LOG: [vite] connecting...
+BROWSER_LOG: %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+REQ: https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap
+REQ: https://cdn.userway.org/widgetapp/2026-02-26-10-23-12/widget_app_base_1772101392457.js
+REQ: https://www.transparenttextures.com/patterns/cream-paper.png
+REQ: https://ui-avatars.com/api/?name=MDA&background=99CC33&color=1E0028&rounded=true&bold=true
+RES: https://www.transparenttextures.com/patterns/cream-paper.png 200
+REQ: https://images.unsplash.com/photo-1532336414038-cf19250c5757?q=80&w=2070&auto=format&fit=crop
+REQ: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3662.906963463363!2d-47.059444!3d-23.155278!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cf31367090883d%3A0x5263225881033239!2sAv.%20Brasil%2C%20567%20-%20Setor%20Industrial%2C%20Itupeva%20-%20SP%2C%2013295-000!5e0!3m2!1sen!2sbr!4v1709650000000!5m2!1sen!2sbr
+RES: https://ui-avatars.com/api/?name=MDA&background=99CC33&color=1E0028&rounded=true&bold=true 200
+RES: https://images.unsplash.com/photo-1532336414038-cf19250c5757?q=80&w=2070&auto=format&fit=crop 200
+RES: https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap 200
+REQ: https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7.woff2
+REQ: http://localhost:3000/api/categories
+REQ: http://localhost:3000/api/products?public=true
+REQ: http://localhost:3000/api/categories
+REQ: http://localhost:3000/api/products?public=true
+RES: http://localhost:3000/api/categories 200
+RES: http://localhost:3000/api/products?public=true 200
+RES: http://localhost:3000/api/categories 200
+RES: http://localhost:3000/api/products?public=true 200
+BROWSER_LOG: SyntaxError: Unexpected token '<', "<!doctype "... is not valid JSON
+BROWSER_LOG: SyntaxError: Unexpected token '<', "<!doctype "... is not valid JSON
+BROWSER_LOG: SyntaxError: Unexpected token '<', "<!doctype "... is not valid JSON
+BROWSER_LOG: SyntaxError: Unexpected token '<', "<!doctype "... is not valid JSON
+BROWSER_LOG: [vite] connected.
+RES: https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7.woff2 200
+RES: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3662.906963463363!2d-47.059444!3d-23.155278!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cf31367090883d%3A0x5263225881033239!2sAv.%20Brasil%2C%20567%20-%20Setor%20Industrial%2C%20Itupeva%20-%20SP%2C%2013295-000!5e0!3m2!1sen!2sbr!4v1709650000000!5m2!1sen!2sbr 200
+REQ: https://maps.gstatic.com/maps-api-v3/embed/js/64/3a/init_embed.js
+REQ: https://maps.googleapis.com/maps/api/js?key=AIzaSyCmL18misQw9KdwqGaw3zHkitj8vG6QF2Y&paint_origin=&libraries=geometry,search&v=weekly&loading=async&language=en&region=br&callback=onApiLoad
+RES: https://cdn.userway.org/widgetapp/2026-02-26-10-23-12/widget_app_base_1772101392457.js 200
+REQ: https://api.userway.org/api/v1/tunings/your-account-id
+RES: https://maps.gstatic.com/maps-api-v3/embed/js/64/3a/init_embed.js 200
+RES: https://maps.googleapis.com/maps/api/js?key=AIzaSyCmL18misQw9KdwqGaw3zHkitj8vG6QF2Y&paint_origin=&libraries=geometry,search&v=weekly&loading=async&language=en&region=br&callback=onApiLoad 200
+REQ: https://maps.googleapis.com/maps-api-v3/api/js/64/3a/search.js
+REQ: https://maps.googleapis.com/maps-api-v3/api/js/64/3a/geometry.js
+REQ: https://maps.googleapis.com/maps-api-v3/api/js/64/3a/main.js
+RES: https://maps.googleapis.com/maps-api-v3/api/js/64/3a/search.js 200
+RES: https://maps.googleapis.com/maps-api-v3/api/js/64/3a/geometry.js 200
+RES: https://maps.googleapis.com/maps-api-v3/api/js/64/3a/main.js 200
+REQ: https://maps.googleapis.com/maps/api/mapsjs/gen_204?csp_test=true
+REQ: https://maps.googleapis.com/maps-api-v3/api/js/64/3a/common.js
+REQ: https://maps.googleapis.com/maps-api-v3/api/js/64/3a/util.js
+REQ: https://maps.googleapis.com/maps-api-v3/api/js/64/3a/map.js
+REQ: https://maps.googleapis.com/maps-api-v3/api/js/64/3a/places.js
+REQ: https://maps.googleapis.com/maps/api/js/StaticMapService.GetMapImage?1m2&1i6195367&2i9498185&2e1&3u16&4m2&1u574&2u498&5m6&1e0&5sen&6sbr&10b1&12b1&14i47083502&8e1&key=AIzaSyCmL18misQw9KdwqGaw3zHkitj8vG6QF2Y&token=29867
+BROWSER_LOG: Search endpoint requested!
+REQ: https://maps.googleapis.com/maps-api-v3/api/js/64/3a/onion.js
+REQ: https://maps.googleapis.com/maps-api-v3/api/js/64/3a/search_impl.js
+HTML_BODY: <!DOCTYPE html><html lang="pt-BR" data-uw-w-loader=""><head>
+  <script type="module">import { injectIntoGlobalHook } from "/@react-refresh";
+injectIntoGlobalHook(window);
+window.$RefreshReg$ = () => {};
+window.$RefreshSig$ = () => (type) => type;</script>
+
+  <script type="module" src="/@vite/client"></script>
+
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/svg+xml" href="/leaf.svg">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MDA - Produtos Naturais
+RES: https://maps.googleapis.com/maps-api-v3/api/js/64/3a/map.js 200
+RES: https://maps.googleapis.com/maps-api-v3/api/js/64/3a/util.js 200
+RES: https://maps.googleapis.com/maps-api-v3/api/js/64/3a/common.js 200
+RES: https://maps.googleapis.com/maps/api/js/StaticMapService.GetMapImage?1m2&1i6195367&2i9498185&2e1&3u16&4m2&1u574&2u498&5m6&1e0&5sen&6sbr&10b1&12b1&14i47083502&8e1&key=AIzaSyCmL18misQw9KdwqGaw3zHkitj8vG6QF2Y&token=29867 200
+RES: https://maps.googleapis.com/maps-api-v3/api/js/64/3a/onion.js 200
+RES: https://maps.googleapis.com/maps-api-v3/api/js/64/3a/search_impl.js 200
+RES: https://maps.googleapis.com/maps-api-v3/api/js/64/3a/places.js 200
+REQ: https://fonts.googleapis.com/css?family=Google+Sans+Text:400&text=%E2%86%90%E2%86%92%E2%86%91%E2%86%93&lang=en
+REQ: https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Google+Sans:400,500,700|Google+Sans+Text:400,500,700&lang=en
+RES: https://maps.googleapis.com/maps/api/mapsjs/gen_204?csp_test=true 200
+RES: https://fonts.googleapis.com/css?family=Google+Sans+Text:400&text=%E2%86%90%E2%86%92%E2%86%91%E2%86%93&lang=en 200
+RES: https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Google+Sans:400,500,700|Google+Sans+Text:400,500,700&lang=en 200
+RES: https://api.userway.org/api/v1/tunings/your-account-id 200
+REQ: https://cdn.userway.org/widgetapp/2026-02-26-10-23-12/locales/pt-BR.json
+BROWSER_LOG: PRO UserWay Accessibility widget detected, but script installed incorrectly. Check setup.
+RES: https://cdn.userway.org/widgetapp/2026-02-26-10-23-12/locales/pt-BR.json 200
