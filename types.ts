@@ -8,6 +8,8 @@ export enum AppRoute {
   CURRICULOS = '/admin/curriculos',
   ESCALA = '/admin/escala',
   FICHA_TECNICA = '/admin/fichatecnica',
+  CLIENTES = '/admin/clientes',
+  FORNECEDORES = '/admin/fornecedores',
 }
 
 export type ModalType = 'confirm-delete' | 'confirm-update' | 'confirm-insert' | 'view-content' | 'create' | 'edit' | 'delete' | 'view';

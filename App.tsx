@@ -12,6 +12,8 @@ import CatalogoPage from './pages/Catalogo';
 import EscalaPage from './pages/Escala';
 import FichaTecnicaPage from './pages/FichaTecnica';
 import CurriculosPage from './pages/Curriculos';
+import ClientesPage from './pages/Clientes';
+import FornecedoresPage from './pages/Fornecedores';
 import TrabalheConoscoPage from './pages/TrabalheConosco';
 import PublicFormFuncionario from './pages/PublicFormFuncionario';
 import AdminLayout from './components/AdminLayout';
@@ -66,6 +68,8 @@ export default function App() {
                 <Route path="escala" element={<EscalaPage />} />
                 <Route path="fichatecnica" element={<FichaTecnicaPage />} />
                 <Route path="curriculos" element={<CurriculosPage />} />
+                <Route path="clientes" element={<ClientesPage />} />
+                <Route path="fornecedores" element={<FornecedoresPage />} />
               </Route>
             </Routes>
             <CartSidebar />
