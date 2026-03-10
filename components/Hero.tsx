@@ -5,42 +5,45 @@ import { ArrowRight, MessageCircle, ChevronLeft, ChevronRight } from 'lucide-rea
 const slides = [
   {
     id: 1,
-    image: 'https://images.unsplash.com/photo-1532336414038-cf19250c5757?q=80&w=2070&auto=format&fit=crop',
-    title: 'Temperos e Sal de Parrilla',
+    image: '/hero-parrilla.jpg',
+    title: 'Sais de Parrilla de Qualidade',
     subtitle: 'A combinação perfeita para o seu churrasco ganhar um sabor inesquecível.',
     highlight: 'Parrilla'
   },
   {
-    id: 2,
-    image: 'https://images.unsplash.com/photo-1544787219-7f47ccb76574?q=80&w=2121&auto=format&fit=crop',
-    title: 'Sabor e Saúde em Cada Detalhe',
-    subtitle: 'Produtos selecionados para uma vida mais leve e cheia de aroma.',
-    highlight: 'Saúde'
-  },
-  {
     id: 3,
-    image: 'https://images.unsplash.com/photo-1505575967455-40e256f73376?q=80&w=2070&auto=format&fit=crop',
-    title: "Temperos D'Casa",
-    subtitle: 'Qualidade e tradição que transformam qualquer receita em um prato especial.',
-    highlight: 'Temperos'
+    image: '/hero-temperos.jpg',
+    title: 'Temperos Naturais Premium',
+    subtitle: 'Qualidade e pureza que transformam qualquer receita em um prato especial.',
+    highlight: 'Naturais'
   }
 ];
 
 export default function Hero() {
   const [currentSlide, setCurrentSlide] = useState(0);
+  const [isAutoPlay, setIsAutoPlay] = useState(true);
 
   useEffect(() => {
+    if (!isAutoPlay) return;
+    
     const timer = setInterval(() => {
       setCurrentSlide((prev) => (prev + 1) % slides.length);
-    }, 5000);
+    }, 10000);
     return () => clearInterval(timer);
-  }, []);
+  }, [isAutoPlay]);
 
-  const nextSlide = () => setCurrentSlide((prev) => (prev + 1) % slides.length);
-  const prevSlide = () => setCurrentSlide((prev) => (prev - 1 + slides.length) % slides.length);
+  const nextSlide = () => {
+    setIsAutoPlay(false);
+    setCurrentSlide((prev) => (prev + 1) % slides.length);
+  };
+  
+  const prevSlide = () => {
+    setIsAutoPlay(false);
+    setCurrentSlide((prev) => (prev - 1 + slides.length) % slides.length);
+  };
 
   return (
-    <section id="inicio" className="relative min-h-screen flex items-center justify-center overflow-hidden group">
+    <section id="inicio" className="relative min-h-screen flex items-end justify-center overflow-hidden group pb-24 md:pb-32">
       {/* Carousel Background */}
       <AnimatePresence mode="wait">
         <motion.div
@@ -55,12 +58,12 @@ export default function Hero() {
             className="absolute inset-0 bg-cover bg-center bg-no-repeat transform scale-105"
             style={{ backgroundImage: `url("${slides[currentSlide].image}")` }}
           />
-          <div className="absolute inset-0 bg-olive-900/60 mix-blend-multiply"></div>
-          <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-transparent to-offwhite/90"></div>
+          <div className="absolute inset-0 bg-olive-900/40 mix-blend-multiply"></div>
+          <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-transparent to-black/80"></div>
         </motion.div>
       </AnimatePresence>
 
-      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center pt-24 w-full">
+      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center w-full">
         <AnimatePresence mode="wait">
           <motion.div
             key={currentSlide}
@@ -70,11 +73,7 @@ export default function Hero() {
             transition={{ duration: 0.5 }}
             className="max-w-4xl mx-auto"
           >
-            <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white leading-tight mb-6 drop-shadow-lg">
-              {slides[currentSlide].title.split(slides[currentSlide].highlight)[0]}
-              <span className="text-accent-yellow italic">{slides[currentSlide].highlight}</span>
-              {slides[currentSlide].title.split(slides[currentSlide].highlight)[1]}
-            </h1>
+            {/* Title removed per user request */}
             <p className="text-lg sm:text-xl md:text-2xl text-earth-100 mb-10 max-w-2xl mx-auto font-light drop-shadow-md">
               {slides[currentSlide].subtitle}
             </p>

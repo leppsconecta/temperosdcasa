@@ -631,11 +631,6 @@ export default function ProductsPage() {
                     <div className="absolute top-2 right-2 bg-white/90 backdrop-blur-sm px-2 py-1 rounded-md text-xs font-bold text-olive-900 shadow-sm z-10">
                       {product.weight}
                     </div>
-                    {/* Price Badge */}
-                    <div className="absolute bottom-2 right-2 bg-[#8cc63f] text-white px-2 py-1 rounded-lg shadow-md border border-[#76a832] font-black tracking-tight flex items-baseline gap-0.5 z-20">
-                      <span className="text-[9px] font-bold">R$</span>
-                      <span className="text-lg leading-none">{(product.price || 0).toLocaleString('pt-BR', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}</span>
-                    </div>
                   </div>
                   <div className="p-4 md:p-6 flex flex-col flex-grow pt-5">
                     <div className="mb-2">

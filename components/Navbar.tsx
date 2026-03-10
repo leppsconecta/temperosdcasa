@@ -53,7 +53,7 @@ export default function Navbar() {
 
   return (
     <nav
-      className={`fixed top-0 left-0 right-0 z-[60] transition-transform duration-300 bg-white border-b border-red-100 shadow-sm py-3 ${isVisible ? 'translate-y-0' : '-translate-y-0 md:-translate-y-full'
+      className={`fixed top-0 left-0 right-0 z-[60] transition-transform duration-300 bg-primary-red border-b border-white/10 shadow-lg py-3 ${isVisible ? 'translate-y-0' : '-translate-y-0 md:-translate-y-full'
         }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -75,17 +75,17 @@ export default function Navbar() {
                 key={link.name}
                 to={link.href}
                 onClick={() => handleLinkClick(link.href)}
-                className="text-sm font-bold uppercase tracking-widest transition-colors text-primary-red hover:text-primary-red-dark relative group"
+                className="text-sm font-bold uppercase tracking-widest transition-colors text-white hover:text-white/80 relative group"
               >
                 {link.name}
-                <span className="absolute bottom-[-4px] left-0 w-0 h-0.5 bg-primary-red transition-all duration-300 group-hover:w-full"></span>
+                <span className="absolute bottom-[-4px] left-0 w-0 h-0.5 bg-white transition-all duration-300 group-hover:w-full"></span>
               </Link>
             ))}
 
             {/* Cart Button */}
             <button
               onClick={toggleSidebar}
-              className="relative p-2 text-earth-100 hover:text-mustard-500 transition-colors"
+              className="relative p-2 text-white hover:text-white/80 transition-colors"
             >
               <ShoppingBag className="w-6 h-6" />
               {totalItems > 0 && (
@@ -100,18 +100,18 @@ export default function Navbar() {
           <div className="md:hidden flex items-center gap-4">
             <button
               onClick={toggleSidebar}
-              className="relative p-2 text-earth-100 hover:text-mustard-500 transition-colors"
+              className="relative p-2 text-white hover:text-white/80 transition-colors"
             >
               <ShoppingBag className="w-6 h-6" />
               {totalItems > 0 && (
-                <span className="absolute -top-1 -right-1 bg-mustard-500 text-olive-900 text-xs font-bold w-5 h-5 rounded-full flex items-center justify-center">
+                <span className="absolute -top-1 -right-1 bg-white text-primary-red text-xs font-bold w-5 h-5 rounded-full flex items-center justify-center">
                   {totalItems}
                 </span>
               )}
             </button>
             <button
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-              className="p-2 transition-colors text-primary-red hover:bg-red-50 rounded-full"
+              className="p-2 transition-colors text-white hover:bg-white/10 rounded-full"
             >
               {isMobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
             </button>
@@ -126,7 +126,7 @@ export default function Navbar() {
             initial={{ opacity: 0, height: 0 }}
             animate={{ opacity: 1, height: 'auto' }}
             exit={{ opacity: 0, height: 0 }}
-            className="md:hidden bg-offwhite border-t border-earth-200 overflow-hidden"
+            className="md:hidden bg-primary-red border-t border-white/10 overflow-hidden"
           >
             <div className="px-4 pt-2 pb-6 space-y-1">
               {navLinks.map((link) => (
@@ -134,7 +134,7 @@ export default function Navbar() {
                   key={link.name}
                   to={link.href}
                   onClick={() => handleLinkClick(link.href)}
-                  className="block px-3 py-3 text-base font-bold text-primary-red hover:bg-red-50 rounded-md transition-colors"
+                  className="block px-3 py-3 text-base font-bold text-white hover:bg-white/10 rounded-md transition-colors"
                 >
                   {link.name}
                 </Link>

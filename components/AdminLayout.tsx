@@ -73,7 +73,7 @@ export default function AdminLayout() {
                         <img src="/logo.png" alt="Logo Temperos D'Casa" className="h-10 w-auto object-contain transition-opacity duration-300" />
                     ) : (
                         <div className="w-10 h-10 bg-white/10 rounded-xl flex items-center justify-center font-black text-xl tracking-tighter">
-                            T
+                            TC
                         </div>
                     )}
                 </div>
